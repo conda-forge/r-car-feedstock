@@ -1,4 +1,4 @@
-{% set version = '2.1-4' %}
+{% set version = "3.0-1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/car_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/car/car_{{ version }}.tar.gz
-  sha256: fd39cf1750cb560a66623fea3fa9e6a94fc24e3dc36367aff24df7d0743edb28
+  sha256: 62c11f2107864ab67756126dd6f5dcbeea7a79183118b4bd916868a81e3cb365
 
 build:
   number: 0
