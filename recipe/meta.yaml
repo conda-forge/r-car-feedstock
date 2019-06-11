@@ -1,4 +1,4 @@
-{% set version = '3.0-2' %}
+{% set version = '3.0-3' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/car_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/car/car_{{ version }}.tar.gz
-  sha256: df59a9ba8fed67eef5ddb8f92f2b41745df715d5695c71d562d7031513f37c50
+  sha256: fa807cb12f6e7fb38ec534cac4eef54747945c2119a7d51155a2492ad778c36f
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
