@@ -1,4 +1,4 @@
-{% set version = '3.0-6' %}
+{% set version = "3.0-7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/car_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/car/car_{{ version }}.tar.gz
-  sha256: 669d15fa609f74f84758ca68981b91860fc93ee815a492745cb97aa014af657b
+  sha256: ad98a2f0f47105285d6677b398fc1b169cc20458e799e05dae47c84068984e87
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -56,14 +56,12 @@ test:
     - "\"%R%\" -e \"library('car')\""  # [win]
 
 about:
-  home: https://r-forge.r-project.org/projects/car/, https://CRAN.R-project.org/package=car,
-    http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html
+  home: https://r-forge.r-project.org/projects/car/, https://CRAN.R-project.org/package=car, http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html
   license: GPL-2
-  summary: Functions to Accompany J. Fox and S. Weisberg, An R Companion to Applied Regression,
-    Third Edition, Sage, 2019.
+  summary: Functions to Accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage, 2019.
   license_family: GPL2
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
