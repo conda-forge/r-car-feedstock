@@ -5,7 +5,7 @@ Home: https://r-forge.r-project.org/projects/car/, https://CRAN.R-project.org/pa
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Functions to Accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage, 2019.
 
