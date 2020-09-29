@@ -57,7 +57,7 @@ test:
 
 about:
   home: https://r-forge.r-project.org/projects/car/, https://CRAN.R-project.org/package=car, http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: Functions to Accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage, 2019.
   license_family: GPL2
   license_file:
