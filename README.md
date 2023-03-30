@@ -1,11 +1,11 @@
-About r-car
-===========
+About r-car-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-car-feedstock/blob/main/LICENSE.txt)
 
 Home: https://r-forge.r-project.org/projects/car/, https://CRAN.R-project.org/package=car, http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-car-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions to Accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage, 2019.
 
