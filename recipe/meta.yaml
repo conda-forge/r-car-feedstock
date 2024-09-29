@@ -23,30 +23,30 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - r-formula
     - r-mass
     - r-abind
     - r-cardata >=3.0_0
-    - r-lme4
-    - r-maptools
+    - r-lme4 >=1.1_27.1
     - r-mgcv
     - r-nlme
     - r-nnet
     - r-pbkrtest >=0.4_4
     - r-quantreg
-    - r-rio
+    - r-scales
   run:
     - r-base
+    - r-formula
     - r-mass
     - r-abind
     - r-cardata >=3.0_0
-    - r-lme4
-    - r-maptools
+    - r-lme4 >=1.1_27.1
     - r-mgcv
     - r-nlme
     - r-nnet
     - r-pbkrtest >=0.4_4
     - r-quantreg
-    - r-rio
+    - r-scales
 
 test:
   commands:
